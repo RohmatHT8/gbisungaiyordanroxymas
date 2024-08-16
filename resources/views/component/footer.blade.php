@@ -1,4 +1,3 @@
-<script src="{{ mix('js/app.js') }}"></script>
 <script>
     const navLinks = document.querySelector('.nav-links')
 
