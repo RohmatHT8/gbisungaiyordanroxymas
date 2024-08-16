@@ -1,69 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-body {
-    font-family: "Montserrat", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.swiper {
+    width: 600px;
+    height: 300px;
 }
-.hero-section {
-    height: 90vh;
-    position: relative;
-    overflow: hidden;
-    background-image: url("../../public/asset/images/bg-hero.png");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-.hr-section {
-    margin: 0px auto;
-    width: 100px;
-    border: solid 1px #e4c577;
-}
-.bg-under-hero {
-    position: absolute;
-    right: 0px;
-    left: 0px;
-    bottom: -10px;
-}
-.bg-under-hero-2 {
-    position: absolute;
-    right: 0px;
-    left: 0px;
-    bottom: -10px;
-    rotate: -1deg;
-    transform-origin: 0% 50%;
-}
-.bg-under-hero-3 {
-    position: absolute;
-    right: 0px;
-    left: 0px;
-    bottom: -10px;
-    rotate: -2deg;
-    transform-origin: 0% 50%;
-}
-.bg-gembala {
-    position: absolute;
-    right: 10px;
-    height: 70vh;
-    width: 30vw;
-}
-.text-header {
-    font-size: 80px;
-    font-weight:700;
-    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-}
-.text-header-hero {
-    font-family: monospace;
-    font-size: 30px;
-    white-space: nowrap;
-    border-right: 2px solid black;
-    width: fit-content;
-    overflow: hidden;
+.swiper-button-next,
+.swiper-button-prev {
+    color: #000; /* Example: Set arrow color */
+    z-index: 10; /* Ensure buttons are above other elements */
 }
 
-@media (max-width: 992px) {
-    .text-header-hero {
-        font-size: 24px;
-        font-bold: bolder;
+#scrollContainer::-webkit-scrollbar {
+    display: none; /* Hide default scrollbar */
+}
+
+#scrollRight {
+    cursor: pointer;
+    z-index: 10;
+}
+.marquee {
+    width: 100%; /* Sesuaikan dengan lebar kontainer */
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 100%; /* Jarak awal dari kanan */
+    animation: marquee 30s linear infinite; /* Durasi dan pengulangan animasi */
+}
+
+/* Animasi marquee */
+@keyframes marquee {
+    0% {
+        transform: translateX(0); /* Mulai dari kanan */
     }
-    .text-header {
-        font-size: 40px;
+    100% {
+        transform: translateX(-100%); /* Berjalan ke kiri */
     }
+}
+
+.marquee-content span {
+    padding-right: 100px; /* Jarak antara dua blok teks */
 }

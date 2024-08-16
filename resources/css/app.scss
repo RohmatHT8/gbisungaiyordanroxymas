@@ -1,9 +1,11 @@
 
-// Override Bootstrap variables here
-$primary: #3490dc; // Example: change primary color
-$light:#e2e8ec;
-$dark:#212529;
-$warning:#e4c577;
+// // Override Bootstrap variables here
+// $primary: #3490dc; // Example: change primary color
+// $light:#e2e8ec;
+// $dark:#212529;
+// $warning:#e4c577;
 
-// Import the rest of Bootstrap
-@import "node_modules/bootstrap/scss/bootstrap";
+// // Import the rest of Bootstrap
+// @import "node_modules/bootstrap/scss/bootstrap";
+@import 'node_modules/bootstrap-icons/font/bootstrap-icons.css';
+
