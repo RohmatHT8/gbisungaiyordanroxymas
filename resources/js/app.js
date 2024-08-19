@@ -18,7 +18,6 @@ AOS.init();
 // };
 
 document.getElementById('scrollRight').onclick = function () {
-    console.log('ke klik')
     document.getElementById('scrollContainer').scrollBy({
         left: 300, // Adjust the value to control scroll distance
         behavior: 'smooth'

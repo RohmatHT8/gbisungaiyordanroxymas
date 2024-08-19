@@ -47,17 +47,17 @@
             </div>
         </div>
         <i id="scrollRight" class="bi bi-arrow-right-circle-fill absolute top-1/2 transform -translate-y-1/2 right-2 text-slate-500 opacity-30 hover:text-yellow-200 hover:opacity-100 hover:text-6xl text-5xl p-2 transition duration-500"></i>
-    </div>
-
-    <div class="text-9xl absolute opacity-20 left-0 right-0">
-        <div class="marquee">
-            <div class="marquee-content">
-                <span>GEREJA SAHABAT KELUARGA</span>
-                <span>GEREJA SAHABAT KELUARGA</span>
-                <span>GEREJA SAHABAT KELUARGA</span>
+        <div class="text-9xl absolute opacity-20 left-0 right-0">
+            <div class="marquee">
+                <div class="marquee-content">
+                    <span>GEREJA SAHABAT KELUARGA</span>
+                    <span>GEREJA SAHABAT KELUARGA</span>
+                    <span>GEREJA SAHABAT KELUARGA</span>
+                </div>
             </div>
         </div>
     </div>
+
 
 </section>
 <!-- visi misi -->
@@ -83,7 +83,7 @@
 
 <section id="activity" class="md:px-32 min-h-[90vh] bg-slate-950 px-5 py-14 relative">
     <div class="relative mb-10" data-aos="zoom-in-up">
-        <div class="w-44 h-1 bg-yellow-200 absolute top-12"></div>
+        <!-- <div class="w-44 h-1 bg-yellow-200 absolute top-12"></div> -->
         <h1 class="text-white font-light italic text-6xl mt-20">IBADAH KATEGORIAL</h1>
     </div>
 

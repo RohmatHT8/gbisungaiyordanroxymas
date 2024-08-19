@@ -14,7 +14,7 @@
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
     @vite(['resources/css/app.css','resources/js/app.js'])
     <link rel="icon" href="{{ asset('asset/images/favicon.png') }}" type="image/x-icon">
-    <title>Home - GBI Sungai Yordan Roxy Mas</title>
+    <title>{{ $title }} - GBI Sungai Yordan Roxy Mas</title>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </head>
 

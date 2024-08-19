@@ -7,10 +7,10 @@
             <div class="flex items-center justify-center">
                 <div>
                     <p class="text-white mb-3 md:text-2xl">Hubungi kami lebih lanjut! Dengan senang hati, kami akan membantu Anda semakin mengenal GBI Sungai Yordan Roxy Mas dan mendukung perjalanan iman Anda.</p>
-                    <button class="relative px-5 py-2 bg-white text-black group overflow-hidden">
+                    <a class="relative px-5 py-2 bg-white text-black group overflow-hidden" href="{{url('/contact')}}">
                         <span class="absolute inset-0 w-full h-full bg-yellow-300 transition-all duration-500 ease-out transform scale-x-0 group-hover:scale-x-100 origin-left blur-none"></span>
                         <span class="relative">HUBUNGI KAMI</span>
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
