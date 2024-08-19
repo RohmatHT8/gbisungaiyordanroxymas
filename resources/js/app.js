@@ -1,7 +1,7 @@
 // import './bootstrap';
 // import 'bootstrap';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css";
+// import "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css";
 import "flowbite";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import AOS from "aos";

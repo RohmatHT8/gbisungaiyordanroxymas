@@ -46,7 +46,7 @@
 
             </div>
         </div>
-        <i id="scrollRight" class="bi bi-arrow-right-circle-fill absolute top-1/2 transform -translate-y-1/2 right-2 text-slate-500 opacity-30 hover:text-yellow-200 hover:opacity-100 hover:text-4xl text-3xl p-2 transition duration-500"></i>
+        <i id="scrollRight" class="bi bi-arrow-right-circle-fill absolute top-1/2 transform -translate-y-1/2 right-2 text-slate-500 opacity-30 hover:text-yellow-200 hover:opacity-100 hover:text-6xl text-5xl p-2 transition duration-500"></i>
     </div>
 
     <div class="text-9xl absolute opacity-20 left-0 right-0">
@@ -62,10 +62,10 @@
 </section>
 <!-- visi misi -->
 <section id="vision" class="md:px-32 min-h-[90vh] bg-slate-950 px-5 py-14 relative">
-    <div class="w-96 absolute -top-32 md:left-64">
+    <div class="w-80 md:w-96 absolute -top-16 left-20 md:-top-32 md:left-64">
         <img src="{{asset('asset/images/gembala.png')}}" alt="gembala" data-aos="zoom-in-up">
     </div>
-    <div class="w-[24rem] md:w-[35rem] absolute left-[5rem] lg:left-[20rem] top-[18rem] md:top-[15rem]" data-aos="fade-up">
+    <div class="w-[20rem] md:w-[35rem] absolute left-[5rem] lg:left-[20rem] top-[18rem] md:top-[15rem]" data-aos="fade-up">
         <img src="{{asset('asset/images/nama-gembala.png')}}" alt="nama-gembala" class="-rotate-2" />
         <p class="text-slate-300 text-center">-Gembala Sidang</p>
     </div>
@@ -167,12 +167,17 @@
     </div>
 </section>
 
-<section id="whatnext" class="md:px-32 min-h-[100vh] px-5 py-14 relative flex items-center">
+<section id="whatnext" class="md:px-32 min-h-[100vh] px-5 py-14 relative flex justify-center items-center">
     <div class="grid md:grid-cols-2 gap-10">
-        <div class="text-5xl md:text-7xl font-bold italic text-end">
-            <p data-aos="fade-right">MARI</p>
-            <p data-aos="fade-right">BERTUMBUH</p>
-            <p data-aos="fade-right">BERSAMA</p>
+        <div class="relative">
+            <div class="absolute -top-28 w-52 h-80 md:w-64 md:h-96" data-aos="fade-left">
+                <img src="{{asset('asset/baptis.jpeg')}}" alt="mari-bertumbuh-bersama" class="opacity-50"/>
+            </div>
+            <div class="text-5xl md:text-7xl font-bold italic text-end">
+                <p data-aos="fade-right">MARI</p>
+                <p data-aos="fade-right">BERTUMBUH</p>
+                <p data-aos="fade-right">BERSAMA</p>
+            </div>
         </div>
         <div class="flex flex-col justify-center gap-4" data-aos="fade-left">
             <div class="hover:text-yellow-400 hover:border-yellow-400 hover:scale-105 cursor-pointer transition duration-500 flex items-center gap-3">
