@@ -25,7 +25,7 @@
 <!-- end hero -->
 
 <!-- news -->
-<section id="news" class="md:px-32 min-h-[90vh] bg-white p-5 md:mt-60">
+<section id="news" class="md:px-32 min-h-[100vh] bg-white p-5 md:mt-60">
     <div class="relative mb-5">
         <h1 class="font-[Poppins] text-5xl md:text-7xl mt-10 italic" data-aos="fade-up">INFO SATU BULAN</h1>
     </div>
