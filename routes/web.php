@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,19 +17,27 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home', ['title' => 'Beranda']);
 });
-
 Route::get('/about', function () {
     return view('about', ['title' => 'Tentang Kami']);
 });
-
-Route::get('/service', function () {
-    return view('service', ['title' => 'Layanan']);
-});
-
 Route::get('/comunity', function () {
     return view('comunity', ['title' => 'Komunitas']);
 });
-
-Route::get('/contact', function () {
-    return view('contact', ['title' => 'Hubungi Kami']);
+Route::get('/service', function () {
+    return view('service', ['title' => 'Layanan']);
 });
+Route::get('/contact', function () {
+    return view('contact', ['title' => 'Kontak']);
+});
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+});
+
+require __DIR__.'/auth.php';

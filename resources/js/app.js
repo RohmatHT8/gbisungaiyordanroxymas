@@ -6,9 +6,12 @@ import "flowbite";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Swiper from "swiper";
+import Alpine from 'alpinejs';
 import "swiper/swiper-bundle.css";
+window.Alpine = Alpine;
+
 AOS.init();
+Alpine.start();
 
 // document.getElementById('scrollLeft').onclick = function () {
 //     document.getElementById('scrollContainer').scrollBy({
@@ -23,6 +26,7 @@ document.getElementById('scrollRight').onclick = function () {
         behavior: 'smooth'
     });
 };
+
 
 
 // swiper()

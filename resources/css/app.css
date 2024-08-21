@@ -47,3 +47,27 @@
 .marquee-content span {
     padding-right: 100px; /* Jarak antara dua blok teks */
 }
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%; /* Tampilkan di bawah elemen induk */
+    /* width: 100%; Sesuaikan dengan lebar elemen induk */
+    z-index: 30; /* Pastikan dropdown di atas elemen lain */
+}
+
+/* Tampilan dropdown aktif */
+.dropdown-menu.opacity-100 {
+    display: block;
+    opacity: 1;
+}
+
+.dropdown-icon {
+    transition: transform 0.3s ease; /* Transisi halus untuk rotasi */
+}
+
+/* CSS untuk rotasi ikon panah */
+.dropdown-menu.opacity-100 + .dropdown-icon {
+    transform: rotate(180deg); /* Rotasi 180 derajat saat dropdown terbuka */
+}

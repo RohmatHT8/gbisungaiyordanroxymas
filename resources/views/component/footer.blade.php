@@ -55,6 +55,19 @@
         e.name = e.name === 'menu' ? 'close' : 'menu'
         navLinks.classList.toggle('top-[9%]')
     }
+
+    function toggleDropdown(event) {
+    event.preventDefault();
+    const dropdownMenu = event.currentTarget.nextElementSibling;
+    const dropdownIcon = event.currentTarget.querySelector('.dropdown-icon');
+    
+    dropdownMenu.classList.toggle('opacity-0');
+    dropdownMenu.classList.toggle('opacity-100');
+    
+    // Toggle rotation of the icon
+    dropdownIcon.classList.toggle('rotate-180');
+}
+
 </script>
 </body>
 
