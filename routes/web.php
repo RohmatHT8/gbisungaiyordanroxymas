@@ -15,19 +15,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home', ['title' => 'Beranda']);
+    return view('beranda', ['title' => 'Beranda']);
 });
-Route::get('/about', function () {
-    return view('about', ['title' => 'Tentang Kami']);
+Route::get('/tentang-kami', function () {
+    return view('tentang-kami', ['title' => 'Tentang Kami']);
 });
-Route::get('/comunity', function () {
-    return view('comunity', ['title' => 'Komunitas']);
+Route::get('/komunitas', function () {
+    return view('komunitas', ['title' => 'Komunitas']);
 });
-Route::get('/service', function () {
-    return view('service', ['title' => 'Layanan']);
+Route::get('/layanan', function () {
+    return view('layanan', ['title' => 'Layanan']);
 });
-Route::get('/contact', function () {
-    return view('contact', ['title' => 'Kontak']);
+Route::get('/hubungi-kami', function () {
+    return view('hubungi-kami', ['title' => 'Hubungi Kami']);
+});
+Route::get('/persembahan', function () {
+    return view('persembahan', ['title' => 'Persambahan']);
+});
+Route::get('/renungan', function () {
+    return view('renungan', ['title' => 'Renungan Harian']);
 });
 
 Route::get('/dashboard', function () {

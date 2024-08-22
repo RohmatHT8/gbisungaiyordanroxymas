@@ -14,7 +14,7 @@
                 </div>
             </div>
         </div>
-        <img src="{{asset('asset/images/bg-contact-us.png')}}" class="absolute top-0 z-0 right-0" />
+        <img src="{{asset('asset/images/bg-contact-us.jpg')}}" class="absolute top-0 z-0 right-0" />
     </div>
     <div class="min-h-[50vh] bg-slate-950 text-white">
         <div class="py-2 flex justify-center gap-5 items-center text-xl pt-5">
