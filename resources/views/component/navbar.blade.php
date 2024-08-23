@@ -32,7 +32,7 @@
                     <a class="text-white hover:text-yellow-200" href="{{url('/komunitas')}}">Komunitas</a>
                 </li>
                 <li>
-                    <a class="text-white hover:text-yellow-200" href="{{url('/renungan')}}">Renungan Harian</a>
+                    <a class="text-white hover:text-yellow-200" href="{{url('/renungan')}}">Renungan</a>
                 </li>
                 <li>
                     <a class="text-white hover:text-yellow-200" href="{{url('/persembahan')}}">Persembahan</a>

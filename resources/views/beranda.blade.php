@@ -14,12 +14,12 @@
         <p>GBI SUNGAI YORDAN ROXY MAS</p>
     </div>
     <div class="p-3 absolute bottom-0 w-[100%] flex md:flex-col gap-2 justify-center">
-        <div class="border border-white text-white hover:text-yellow-200 hover:border-yellow-200 w-10 h-10 rounded-full flex justify-center items-center transition duration-300">
+        <a href="https://www.youtube.com/@gbisungaiyordanroxymas" target="_blank" class="border border-white text-white hover:text-yellow-200 hover:border-yellow-200 w-10 h-10 rounded-full flex justify-center items-center transition duration-300">
             <i class="bi bi-youtube"></i>
-        </div>
-        <div class="border border-white text-white hover:text-yellow-200 hover:border-yellow-200 w-10 h-10 rounded-full flex justify-center items-center transition duration-300">
+        </a>
+        <a href="https://www.instagram.com/gbisungaiyordanroxy/" target="_blank" class="border border-white text-white hover:text-yellow-200 hover:border-yellow-200 w-10 h-10 rounded-full flex justify-center items-center transition duration-300">
             <i class="bi bi-instagram"></i>
-        </div>
+        </a>
     </div>
 </section>
 <!-- end hero -->
@@ -53,8 +53,8 @@
                 <p class="font-[Poppins] text-xl font-light mt-4">Pendalaman Alkitab</p>
             </div>
         </div>
-        <i id="scrollRight" class="bi bi-arrow-right-circle-fill absolute top-1/2 transform -translate-y-1/2 right-2 text-slate-500 opacity-30 hover:text-yellow-200 hover:opacity-100 hover:text-6xl text-5xl p-2 transition duration-500"></i>
-        <div class="text-9xl absolute opacity-20 left-0 right-0">
+        <i id="scrollRight" class="bi bi-arrow-right-circle-fill absolute top-1/2 transform -translate-y-1/2 -right-8 text-slate-500 opacity-100 hover:text-yellow-200 hover:opacity-40 hover:text-6xl text-5xl p-2 transition duration-500"></i>
+        <div class="text-9xl absolute opacity-20 left-0 right-0 z-20">
             <div class="marquee">
                 <div class="marquee-content">
                     <span>GEREJA SAHABAT KELUARGA</span>

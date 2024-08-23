@@ -1,9 +1,9 @@
 @include('component/header')
 @include('component/navbar')
 <section class="h-[60vh] relative">
-    <img src="{{ asset('asset/images/bg-persembahan.png') }}"
+    <img src="{{ asset('asset/images/renungan-bg.jpg') }}"
         class="absolute top-0 left-0 w-full h-full object-cover -z-10" alt="bg-hero" />
-    <div class="absolute top-0 left-0 w-full h-full object-cover -z-10 bg-black opacity-70"></div>
+    <div class="absolute top-0 left-0 w-full h-full object-cover -z-10 bg-black opacity-30"></div>
     <div class="w-full h-full text-white flex justify-center items-center">
         <div class="text-center">
             <h1 class="text-6xl md:text-7xl font-bold mb-2">Renungan Harian</h1>
@@ -25,7 +25,6 @@
             </div>
         </div>
     </div>
-
 
     <div class="grid lg:grid-cols-4 md:grid-cols-2 p-10 gap-10">
         <div clas="w-full bg-white">
